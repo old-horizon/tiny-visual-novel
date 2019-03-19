@@ -1,0 +1,15 @@
+{
+  "name": "tiny-visual-novel",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build static/index.html",
+    "start": "parcel static/index.html"
+  },
+  "devDependencies": {
+    "@types/createjs": "0.0.29",
+    "core-js": "^2.6.5",
+    "parcel-bundler": "^1.11.0",
+    "parcel-plugin-static-files-copy": "^2.0.0",
+    "typescript": "^3.3.3333"
+  }
+}
